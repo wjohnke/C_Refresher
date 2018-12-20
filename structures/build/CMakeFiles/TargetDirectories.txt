@@ -1,0 +1,4 @@
+/home/wmjxb2/CS4520/assignment2/structures/build/CMakeFiles/rebuild_cache.dir
+/home/wmjxb2/CS4520/assignment2/structures/build/CMakeFiles/edit_cache.dir
+/home/wmjxb2/CS4520/assignment2/structures/build/CMakeFiles/test.dir
+/home/wmjxb2/CS4520/assignment2/structures/build/CMakeFiles/structures_tester.dir

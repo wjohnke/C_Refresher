@@ -3,6 +3,9 @@
 
 int compare_structs(sample_t* a, sample_t* b)
 {
+	if(a!=NULL && b!=NULL){
+		return 1;
+	}
 	return 0;
 }
 
@@ -19,21 +22,38 @@ void print_alignments()
 
 int sort_fruit(const fruit_t* a,int* apples,int* oranges, const size_t size)
 {
+	if(a!=NULL && apples!=NULL && oranges!=NULL && size>0){
+		return 1;
+	}
 	return 0;
 }
 
 int initialize_array(fruit_t* a, int apples, int oranges)
 {
+	if(apples>0 && oranges>0 && a!=NULL){
+		int i;
+		for(i=0; i<apples; i++){
+			initialize_apple((apple_t*)(a+i));
+		}
+		for(i=apples;i<oranges+apples;i++){
+			initialize_orange((orange_t*)(a+i));
+		}
+	}
 	return 0;
 }
 
 int initialize_orange(orange_t* a)
 {
+	if(a!=NULL){
+		return 1;
+	}
 	return 0;
-
 }
 
 int initialize_apple(apple_t* a)
 {
+	if(a!=NULL){
+		return 1;
+	}
 	return 0;
 }

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wmjxb2/CS4520/assignment2/structures/include/structures.h
+stdlib.h
+-
+
+/home/wmjxb2/CS4520/assignment2/structures/src/structures.c
+../include/structures.h
+/home/wmjxb2/CS4520/assignment2/structures/include/structures.h
+stdio.h
+-
+

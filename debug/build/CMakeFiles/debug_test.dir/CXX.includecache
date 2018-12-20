@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wmjxb2/CS4520/assignment2/debug/include/debug.h
+stdint.h
+-
+stddef.h
+-
+stdbool.h
+-
+
+/home/wmjxb2/CS4520/assignment2/debug/test/tests.cpp
+../include/debug.h
+/home/wmjxb2/CS4520/assignment2/debug/include/debug.h
+cstdint
+-
+algorithm
+-
+vector
+-
+gtest/gtest.h
+-
+

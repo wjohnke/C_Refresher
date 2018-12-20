@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wmjxb2/CS4520/assignment2/allocation/include/allocation.h
+stdbool.h
+-
+stddef.h
+-
+
+/home/wmjxb2/CS4520/assignment2/allocation/test/tests.cpp
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+../include/allocation.h
+/home/wmjxb2/CS4520/assignment2/allocation/include/allocation.h
+gtest/gtest.h
+-
+

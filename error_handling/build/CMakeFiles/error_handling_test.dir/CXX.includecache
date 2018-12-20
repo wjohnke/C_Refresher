@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wmjxb2/CS4520/assignment2/error_handling/include/error_handling.h
+stdbool.h
+-
+stddef.h
+-
+sys/types.h
+-
+stdint.h
+-
+
+/home/wmjxb2/CS4520/assignment2/error_handling/test/tests.cpp
+stdio.h
+-
+sys/stat.h
+-
+stdlib.h
+-
+stdint.h
+-
+../include/error_handling.h
+/home/wmjxb2/CS4520/assignment2/error_handling/include/error_handling.h
+gtest/gtest.h
+-
+
